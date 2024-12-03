@@ -11,3 +11,6 @@ setInterval(function () {
   }
   timer++
 },1000)
+setInterval(function () {
+document.getElementById("timer").textContent=timer
+},1)
